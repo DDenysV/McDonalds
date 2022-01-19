@@ -1,0 +1,30 @@
+.basked {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.name-position {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+    width: 250px;
+}
+
+.btn-position {
+    width: 28px;
+    height: 28px;
+    border: none;
+    background: #FF6C01;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.price-position {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}

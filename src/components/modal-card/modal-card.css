@@ -1,0 +1,148 @@
+.modal-card {
+    font-family: sans-serif;
+    display: none;
+    z-index: 2;
+    position: fixed;
+    left: 25%;
+    top: 100px;
+    width: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 40px;
+    animation: show-modal 500ms 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes show-modal{
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.top-info {
+    display: flex;
+}
+
+.product-img {
+    width: 288px;
+    height: 288px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.product-img img {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.product-text {
+    margin-left: 20px;
+}
+
+.text-title {
+    margin: 0 0 20px 0;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.text-info {
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #443E3E;
+}
+
+.closed-modal {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.closed-modal > button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    color: rgba(49, 49, 49, 0.747);
+    cursor: pointer;
+
+}
+
+.botton-info {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-like {
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    width: 230px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.modal-like-img {
+    width: 40px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.modal-texl-like {
+    margin: 0 0 0 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #999999;
+}
+
+.modal-del-counter, .modal-add-counter {
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: #FF6C01;
+    cursor: pointer;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+}
+
+.modal-counter-info {
+    display: inline-flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-addbasked > button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    width: 210px;
+    height: 50px;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    background: #FF6C01;
+    border-radius: 10px;
+}
+
+.modal-addbasked > button > span{
+    display: inline-flex;
+    width: 100px;
+}
